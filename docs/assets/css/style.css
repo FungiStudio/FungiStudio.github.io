@@ -1,0 +1,53 @@
+@import url('/docs/assets/fonts/3270-Regular.ttf');
+
+@font-face {
+    font-family: 'IBM-3270';
+    src: url(/docs/assets/fonts/3270-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: IBM-3270;
+}
+
+html, body {
+	background-color: darkslategray;
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+	margin: 0;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: .25em;
+	color: antiquewhite;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: silver;
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.main-nav li {
+	padding: 0 2%;
+}
+
+.main-header {
+	background-color: rgba(75, 75, 75, 255);
+	background-size: cover;
+}
