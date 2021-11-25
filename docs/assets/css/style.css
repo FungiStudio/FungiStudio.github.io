@@ -49,3 +49,27 @@ html, body {
 	background-color: rgba(75, 75, 75, 255);
 	background-size: cover;
 }
+
+.projects-grid {
+	align-items: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	gap: 5px;
+	padding: 5px;
+}
+
+.projects-grid div {
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.project-1 {
+	grid-area: 1 / 1 / 1 / 1;
+}
+
+.project-2 {
+	grid-area: 2 / 2 / 2 / 2;
+}
