@@ -11,7 +11,7 @@
 }
 
 html, body {
-	background-color: darkslategray;
+	background-color: rgb(102 107 104);
 	margin: 0;
 	padding: 0;
 }
@@ -71,5 +71,10 @@ html, body {
 }
 
 .project-2 {
-	grid-area: 2 / 2 / 2 / 2;
+	grid-area: 1 / 2 / 1 / 2;
+}
+
+.main-footer a {
+	align-items: center;
+	display: inline-block;
 }
