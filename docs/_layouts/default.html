@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
-		<title>FungiStudio - Projects</title>
-		<meta name="description" content="FungiStudio makes open source projects such as games and software">
-		<link rel="stylesheet" href ="/assets/css/style.css">
+		<meta charset="utf8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -15,39 +15,10 @@
 				</ul>
 			</nav>
 			<h1>FungiStudio</h1>
-			<br>
-			<!-- TODO: Make And Add Background Image -->
 		</header>
+		<h1>{{ page.title }}</h1>
 		<section>
-			<h2>Games And Software</h2>
-			<div>
-				<ul class="projects">
-					<li>
-						<strong>FungiEmporium</strong>
-						&lt;&gt;
-						Nov. 15 2021
-						&lt;&gt;
-						Software
-						&lt;&gt;
-						<a href="https://github.com/ShadowFungi/FungiEmporium" target="_self">
-							<button type="button">Github Page</button>
-						</a>
-						<hr>
-					</li>
-					<li>
-						<strong>KaizenCalligrapher</strong>
-						&lt;&gt;
-						Nov. 24 2021
-						&lt;&gt;
-						Software
-						&lt;&gt;
-						<a href="https://github.com/ShadowFungi/KaizenCalligrapher">
-							<button type="button">Github Page</button>
-						</a>
-						<hr>
-					</li>
-				</ul>
-			</div>
+			{{content}}
 		</section>
 		<footer class="main-footer">
 			<h3>FungiStudio</h3>

@@ -31,65 +31,76 @@ html, body {
 	text-decoration: none;
 }
 
-.main-nav {
-	text-align: right;
-	font-size: 1.25em;
-	font-weight: normal;
-	border-bottom: 2px;
+@media screen and (min-width: 740px) {
+	.main-nav {
+		text-align: right;
+		font-size: 1.25em;
+		font-weight: normal;
+		border-bottom: 2px;
+	}
+	
+	.main-nav li {
+		line-height: 0px;
+		font-size: 25px;
+		margin: 0 .25%;
+		padding: 0 .75%;
+		background-color:rgb(66, 87, 68);
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+	
+	.main-nav li:hover {
+		line-height: 0px;
+		margin: 0 .25%;
+		padding: 0 .75%;
+		background-color: rgb(39, 98, 66);
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
 }
 
-.main-nav li {
-	font-size: 25px;
-	margin: 1em;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	background-color:rgb(66, 87, 68);
-	border-width: 5px;
-	border-color: rgb(66, 87, 68);
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+@media screen and (max-width: 740px) {
+	.main-nav {
+		text-align: right;
+		font-size: 1.25em;
+		font-weight: normal;
+		border-bottom: .5px;
+	}
+	
+	.main-nav li {
+		font-size: 15px;
+		margin: 1em;
+		padding-right: 1.75px;
+		padding-left: 1.75px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		background-color:rgb(66, 87, 68);
+		border-width: 1px;
+		border-color: rgb(66, 87, 68);
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+	}
+	
+	.main-nav li:hover {
+		margin: 1em;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		background-color: rgb(39, 98, 66);
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
 }
 
-.main-nav li:hover {
-	margin: 1em;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	background-color: rgb(39, 98, 66);
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+.projects li {
+	align-items: center;
+	display: inline-block;
 }
 
 .main-header {
 	background-color: rgba(75, 75, 75, 255);
 	background-size: cover;
-}
-
-.projects-grid {
-	align-items: center;
-	display: grid;
-	grid-template-columns: auto auto auto auto auto auto;
-	gap: 5px;
-	padding: 5px;
-}
-
-.projects-grid div {
-	align-items: center;
-	align-content: center;
-	text-align: center;
-	padding: 10px;
-	font-size: 30px;
-}
-
-.project-1 {
-	grid-area: 1 / 1 / 1 / 1;
-}
-
-.project-2 {
-	grid-area: 1 / 2 / 1 / 2;
 }
 
 .main-footer a {
