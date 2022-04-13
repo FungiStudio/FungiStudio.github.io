@@ -62,8 +62,13 @@ html, body {
 	
 	.stream-player iframe {
 		border: none;
-		align-items: center;
+		align-self: center;
 		
+	}
+
+	.proc-main {
+		margin: 20rem;
+		padding: 20rem;
 	}
 
 }
