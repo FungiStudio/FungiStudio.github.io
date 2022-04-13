@@ -60,7 +60,7 @@ html, body {
 		border-bottom-right-radius: 15px;
 	}
 	
-	.stream-player iframe {
+	.stream-player {
 		border: none;
 		align-self: center;
 		
