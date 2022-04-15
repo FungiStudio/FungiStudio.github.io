@@ -60,15 +60,26 @@ html, body {
 		border-bottom-right-radius: 15px;
 	}
 	
-	.stream-player {
-		border: none;
-		align-self: center;
-		
+	.stream-player div {
+		text-align: center;
+		padding: 0 0%;
+	}
+	
+	.stream-player iframe {
+		border: 0 0%;
+		display: inline-block;
+		border-style: none;
+		padding: 0 0%;
 	}
 
 	.proc-main {
 		margin: 20rem;
 		padding: 20rem;
+	}
+
+	.projects {
+		text-align: center;
+		align-self: center;
 	}
 
 }
